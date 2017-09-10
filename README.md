@@ -9,14 +9,14 @@ Sable is a hobbyist project and no person taking part in it is being paid for it
 
 The goals are:
 
-1) Develop a JVM toolset for Sable development.
+**1) Develop a JVM toolset for Sable development.**
 
 Such a toolset shall allow for full-cycle and full-range development targeting the JVM platform and its satellite- or supported technologies, just as it happens for most of JVM-compliant languages. A minimum toolset shall include:
    1- A compiler of Sable sources into JVM bytecode.
    2- A debugger.
    3- An Eclipse-based IDE, including the typical development supporting widgets (a smart editor, outline views, etc).
 
-2) Keeping Sable fully compliant with the Swift 4.0 specification, within the limits that the nature of the JVM imposes.
+**2) Keeping Sable fully compliant with the Swift 4.0 specification, within the limits that the nature of the JVM imposes.**
 
 Much of the Swift 4.0 programming paradigm, such as modules, classes, variables, functions, statements and other typical OOP concepts map more or less naturally into their JVM counterparts. In such cases, an equivalence mapping is to be applied between Swift and the JVM in order to implement Sable.
 
@@ -28,19 +28,20 @@ Nevertheless, Swift 4.0 does include certain concepts and language constructs ai
 ## Goals ('how')
 
 The main non-functional goals of the project (the HOW), which can be understood as aimed traits of the Sable implementation, are:
-1) Correctness.
+
+**1) Correctness.**
 
 At the top of priorities is providing a correct implementation of the Swift 4.0 language that will behave in a correct way. "Correct" means not only compliant to the specification, but also bug-free. We want to offer a product that people can rely on and trust.
 
 Formal methods of sofware design and/or verification, including formal semantics, should be applied wherever feasible. Formal methods, if aplied correctly, can give critical parts of software artifacts the reliability of a mathematically proven model. Exhaustive testing will be required but only as a second option to formal methods, wherever the first are not feasible.
 
-3) Ergonomy.
+**3) Ergonomy.**
 
 This is a goal than cannot be enough stressed. Sable and its toolset should be easy to use, but moreover - nice to use. They should allow the end-user to develop in a natural, confortable and high-productive way. Therefore an user-oriented approach, keeping in mind the user's mind, his needs and other state-of-the-art solutions in every case shall guide every feature design and implementation.
 
 The software market has offered and still produces plenty of both successful unsuccessful user-interaction solutions. Following the old good principle of not attempting to reinvent the wheel (but using the wheel to invent something new), the Sable project will follow two documents as a guide to design user interaction mechanisms: Apple User Interface Guidelines and Eclipse user interface guidelines. Read this to know more about them.
 
-4) Simplicity.
+**4) Simplicity.**
 
 Simplicity means not doing more than it's necessary. We want to keep both the product and the source code simple and easily usable, preferring minimalistic, proven solutions, both in the internal architecture of Sable and in its interface with the end-user.
 
