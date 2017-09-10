@@ -1,7 +1,7 @@
 # sable
-**Sable**, a Swift 4.0 - compliant implementation of the language targeting the JVM.
+**Sable**, a Swift 4 - compliant implementation of the language targeting the JVM.
 
-The Sable project is aimed to implement the Sable language - a Swift 4.0 - compliant language for the JVM (Java Virtual Machine). "Sable" is a transcription of *S-Able*, wich in turn stands for *Swift - Able*.
+The Sable project is aimed to implement the Sable language - a Swift 4 - compliant language for the JVM (Java Virtual Machine). "Sable" is a transcription of *S-Able*, wich in turn stands for *Swift - Able*.
 
 Sable is a hobbyist project and no person taking part in it is being paid for it. The Sable project is open source and is not funded by any company or public entity.
 
@@ -16,13 +16,13 @@ Such a toolset shall allow for full-cycle and full-range development targeting t
    2. A debugger.
    3. An Eclipse-based IDE, including the typical development supporting widgets (a smart editor, outline views, etc).
 
-**2) Keeping Sable fully compliant with the Swift 4.0 specification, within the limits that the nature of the JVM imposes.**
+**2) Keeping Sable fully compliant with the Swift 4 specification, within the limits that the nature of the JVM imposes.**
 
-Much of the Swift 4.0 programming paradigm, such as modules, classes, variables, functions, statements and other typical OOP concepts map more or less naturally into their JVM counterparts. In such cases, an equivalence mapping is to be applied between Swift and the JVM in order to implement Sable.
+Much of the Swift 4 programming paradigm, such as modules, classes, variables, functions, statements and other typical OOP concepts map more or less naturally into their JVM counterparts. In such cases, an equivalence mapping is to be applied between Swift and the JVM in order to implement Sable.
 
-Nevertheless, Swift 4.0 does include certain concepts and language constructs aimed at low-level development, such as memory management facilities, that may difficult or pointless to implement in a JVM-based language. In such cases, the following approach shall be followed:
+Nevertheless, Swift 4 does include certain concepts and language constructs aimed at low-level development, such as memory management facilities, that may difficult or pointless to implement in a JVM-based language. In such cases, the following approach shall be followed:
    1. If such a non-JVM construct can be implemented in the JVM without compromising any more prioritary goal than this one, then they shall be implemented.
-   2. If such a non-JVM construct can be simulated in the JVM without compromising any more prioritary goal than this one, then they shall be simulated. "Simulating" a non-JVM construct is to be understood as offering a pure JVM-based API with an equivalent semantic model to the one dictated by the Swift 4.0 specification.
+   2. If such a non-JVM construct can be simulated in the JVM without compromising any more prioritary goal than this one, then they shall be simulated. "Simulating" a non-JVM construct is to be understood as offering a pure JVM-based API with an equivalent semantic model to the one dictated by the Swift 4 specification.
 
 
 ## Goals ('how')
@@ -31,7 +31,7 @@ The main non-functional goals of the project (the HOW), which can be understood 
 
 **1) Correctness.**
 
-At the top of priorities is providing a correct implementation of the Swift 4.0 language that will behave in a correct way. "Correct" means not only compliant to the specification, but also bug-free (to a realistic degree). We want to offer a product that people can rely on and trust.
+At the top of priorities is providing a correct implementation of the Swift 4 language that will behave in a correct way. "Correct" means not only compliant to the specification, but also bug-free (to a realistic degree). We want to offer a product that people can rely on and trust.
 
 Formal methods of sofware design and/or verification, including formal semantics, should be applied wherever feasible. Formal methods, if aplied correctly, can give critical parts of software artifacts the reliability of a mathematically proven model. Exhaustive testing will be required but only as a second option to formal methods, wherever the latter are not feasible or confortable to apply.
 
