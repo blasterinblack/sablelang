@@ -1,5 +1,5 @@
 # sable
-**Sable**, a Swift 4.0 - compliant implementation of the language targetting the JVM.
+**Sable**, a Swift 4.0 - compliant implementation of the language targeting the JVM.
 
 The Sable project is aimed to implement the Sable language - a Swift 4.0 - compliant language for the JVM (Java Virtual Machine). "Sable" is a transcription of *S-Able*, wich in turn stands for *Swift - Able*.
 
