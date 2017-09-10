@@ -91,9 +91,6 @@ By the time being, not much is done. A grammar an Antlr4 parser is being defined
 
 See you at the Sable project!
 
-
-Cheers!
-
 David Guardado Barcia
 
 
