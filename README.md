@@ -22,7 +22,7 @@ Much of the Swift 4.0 programming paradigm, such as modules, classes, variables,
 
 Nevertheless, Swift 4.0 does include certain concepts and language constructs aimed at low-level development, such as memory management facilities, that may difficult or pointless to implement in a JVM-based language. In such cases, the following approach shall be followed:
    1. If such a non-JVM construct can be implemented in the JVM without compromising any more prioritary goal than this one, then they shall be implemented.
-   2. If such a non-JVM construct can be simulated in the JVM without compromising any more prioritary goal than this one, then they shall be simulated. "Simulating" a non-JVM construct is to be understood as offering an API fully implemented in the JVM that will offer an user of the non-JVM construct an equivalent semantic model to the one dictated by the Swift 4.0 specification.
+   2. If such a non-JVM construct can be simulated in the JVM without compromising any more prioritary goal than this one, then they shall be simulated. "Simulating" a non-JVM construct is to be understood as offering a pure JVM-based API with an equivalent semantic model to the one dictated by the Swift 4.0 specification.
 
 
 ## Goals ('how')
