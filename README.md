@@ -76,6 +76,7 @@ https://www.planetgeek.ch/wp-content/uploads/2013/06/Clean-Code-V2.2.pdf
 4. User interface design rules are just so much, or even more important than coding rules, according to the project's goals. The following documents shall be used as a guide for designing user interaction solutions (e.g. in the IDE or the compiler command line), in the cases where they are not contrary to the Sable project's goals:
 
 https://developer.apple.com/macos/human-interface-guidelines
+https://wiki.eclipse.org/User_Interface_Guidelines
 
 5. The *guiding developers* team may change the rules for team collaboration and work if there are good reasons for it (i.e if those resons serve the project's goals).
 
