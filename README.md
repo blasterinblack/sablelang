@@ -82,7 +82,7 @@ https://wiki.eclipse.org/User_Interface_Guidelines
 
 ## What now? What next?
 
-If you have been keeping reading up to this point, I am happy to tell you that have already contributed to the Sable project! :) But if you want to take it a step further, you could:
+If you have been keeping reading up to this point, you have already contributed a bit to the Sable project! :) But if you want to take it a step further, you might want to:
 
 1) Think about contributing as developer
 2) Tell other people about the Sable project and that developers are welcome
